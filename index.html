@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper, Rock, Scissors</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <H1 class="h1">PAPER, ROCK, SCISSORS</H1>
+    </header>
+    <section class="main">
+        <div class="scores">
+            <div class="wins border">Wins:&nbsp<br><span id="wins"></span></div>
+            <div class="ties border">Ties:&nbsp<br><span id="ties"></span></div>
+            <div class="losses border">Losses:&nbsp<br><span id="losses"></span></div>
+        </div>
+        <div class="choices">
+            <div id="userChoice" class="userChoice"></div>
+            <button id="go" class="go">GO</button>
+            <div id="aiChoice" class="aiChoice"></div>
+        </div>
+        <div class="game">
+            <button id="paper" class="paper border"></button>
+            <button id="rock" class="rock border"></button>
+            <button id="scissors" class="scissors border"></button>
+        </div>
+        <div class="button">
+            <button id="resetScore" class="resetScore border"><p class="buttonText">Reset Score</p></button>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
